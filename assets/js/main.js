@@ -70,7 +70,13 @@
       behavior: 'smooth'
     })
   }
-
+  /**
+   * Language selection
+   * Add by Jean Delest D. DJADJA
+   */
+  $(function(){
+    $('.selectpicker').selectpicker();
+  });
   /**
    * Back to top button
    */
